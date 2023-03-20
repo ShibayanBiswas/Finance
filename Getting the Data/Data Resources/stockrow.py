@@ -6,7 +6,7 @@ import pandas as pd
 from enum import Enum
 
 tickers=["BA", "AAPL"] #list of tickers whose data needs to be extracted
-path = "D:\\Stockrow\\Financials" # please create this folder in your local machine
+path = "D:\Stockrow\Financials" # please create this folder in your local machine
 #Please also create subfolders Annual, Quartely and Trailing in your local machine
 financials = {}
 for ticker in tickers:
